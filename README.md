@@ -1,2 +1,2 @@
 # georgeson.dev
-Main Website
+Main Website for m blog and for other bits too.
