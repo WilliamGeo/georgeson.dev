@@ -5,6 +5,14 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+}
+
 /* --- CLASSES --- */
 
 /*  Images  */
@@ -30,6 +38,9 @@
 /*  Toolbar  */
 
 .header > ul {
+    max-width: fit-content;
+
+
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -37,7 +48,9 @@
 
     /*  Frosted Glass Effect */
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
-    border-radius: 25px;
+    /* border-radius: 25px; */
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
     background-color: rgba(255, 255, 255, .15);
     backdrop-filter: blur(5px);
 }
@@ -45,6 +58,8 @@
 .header > li {
     float: left;
     font-family: 'Poppins', sans-serif;
+    background-color: #f2f2f5;
+
 }
   
 .header > li a {
@@ -57,6 +72,19 @@
 
 .header > li a:hover {
     font-weight: bold;
+    background-color: rgba(234, 230, 236, 0.75);
+}
+
+.header {
+    text-align: center;
+    display: inline-block;
+    padding: 0px;
+
+}
+
+.header-section {
+    padding: 0px; 
+    text-align: center;
 }
 
 /*  Links  */
