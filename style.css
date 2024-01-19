@@ -33,6 +33,17 @@ body {
 
 .bgimg {
     background-image: url(cdn/img/code.bmp);
+    width: 100%;
+}
+
+.banner-txt {
+    padding: 150px 0px;
+    color: white; 
+    font-size: 350%;
+}
+
+/* Handling banner on mobile devices  */
+@media (max-width: 800px) {
 }
 
 /*  Toolbar  */
@@ -85,6 +96,15 @@ body {
 .header-section {
     padding: 0px; 
     text-align: center;
+}
+
+/* Header changes for mobile screens  */
+
+@media (max-width:800px) {
+    
+    .header > li {
+        font-size: 3vw;
+    }
 }
 
 /*  Links  */
